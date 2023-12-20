@@ -13,7 +13,7 @@ console.log(number, typeof number);*/
 
 var age = prompt("Вкажіть ваш вік");
 
-if ( typeof age == Number && age > 0){
+if ( typeof age  Number && age > 0){
 if (age == 1){
     console.log('Вам ' + age + ' рік');
 }
@@ -52,6 +52,7 @@ switch (unitOfMeasurement) {
         break;
     case 'kg':
         console.log(quantity + ' кг це ' + quantity * 1000 + ' грм');
-        default:
+        break;
+    default:
             text = "Значення не знайдено";
 }

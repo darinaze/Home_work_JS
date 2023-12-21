@@ -42,7 +42,7 @@ console.log(number, typeof number);*/
 // Обов'язково при написані завдання використовуйте switch
 // Продумати варіант якщо буде введена якась інша одиниця виміру
 // Мудрувати та створювати валідацію не потрібно
-var unitOfMeasurement = 'km', quantity = 10;
+var unitOfMeasurement = 'k', quantity = 10;
 
 switch (unitOfMeasurement) {
     case "km":
@@ -55,5 +55,5 @@ switch (unitOfMeasurement) {
         console.log(quantity + ' кг це ' + quantity * 1000 + ' грм');
         break;
     default:
-            text = "Значення не знайдено";
+        console.log("Значення не знайдено");
 }

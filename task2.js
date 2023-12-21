@@ -11,21 +11,22 @@
 /*let number = Number('4');
 console.log(number, typeof number);*/
 
-var age = prompt("Вкажіть ваш вік");
+//var age = prompt("Вкажіть ваш вік");
 
-if ( typeof age  Number && age > 0){
-if (age == 1){
-    console.log('Вам ' + age + ' рік');
-}
-else if (age > 1 && age <= 4 ){
-    console.log('Вам ' + age + ' роки') ;
-}
-else if (age >= 5 && age <= 20){
-    console.log('Вам ' + age + ' років') ;
-}}
-else {
-    console.log("Ви ввели не вірне число!")
-}
+
+// if ( typeof age  Number && age > 0){
+// if (age == 1){
+//     console.log('Вам ' + age + ' рік');
+// }
+// else if (age > 1 && age <= 4 ){
+//     console.log('Вам ' + age + ' роки') ;
+// }
+// else if (age >= 5 && age <= 20){
+//     console.log('Вам ' + age + ' років') ;
+// }}
+// else {
+//     console.log("Ви ввели не вірне число!")
+// }
 
 // Напишіть програму яка буде приймати два значення, 
 // перше це одиниця вимірювання (кілометри, години та кілограми), друге значення це кількість, а потім переводити ці значення:

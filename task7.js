@@ -53,7 +53,7 @@ function checkValidEmail(array){
         
         if(reg.test(array[i].email)){
 
-            arrResult.push(array[i]);
+            arrResult.push(array[i].email);
 
         }
         }
